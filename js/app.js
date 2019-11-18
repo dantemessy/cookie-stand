@@ -22,7 +22,7 @@ var Seattle = {
       this.customersNumber = randomNumber(min, max) ;
       this.cookies = Math.ceil(this.customersNumber * this.avg) ;
       this.array.push(this.cookies);
-      this.arrayTotal= this.array[a] +this.arrayTotal ;
+      this.arrayTotal += this.array[a] ;
 
     }
   },
