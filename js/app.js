@@ -2,6 +2,7 @@
 
 var workHours = ['6am', '7am', '8am', '9am', '10am', '11am', '12am', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm'];
 var shopNames = [];
+var theForm = document.getElementById('shopsForm');
 
 var container = document.getElementById('stores');
 var articleEl = document.createElement('article');
@@ -112,9 +113,9 @@ Shop.prototype.footer = function () {
 
 var seattle = new Shop('Seattle', 23, 65, 6.3);
 var tokyo = new Shop('tokyo', 3, 24, 1.2);
-var dubai = new Shop('dubai', 23, 65, 6.3);
-var paris = new Shop('paris', 23, 65, 6.3);
-var lima = new Shop('lima', 23, 65, 6.3);
+var dubai = new Shop('dubai', 11, 38, 3.7);
+var paris = new Shop('paris', 20, 38, 2.3);
+var lima = new Shop('lima', 2, 16, 4.6);
 
 // for (let i = 0; i < shopNames.length; i++) {
 
@@ -133,7 +134,23 @@ Shop.prototype.footer();
 
 
 
-console.log(shopNames);
+theForm.addEventListener('submit', function(event) {
+  event.preventDefault();
+  var name = event.target.name.value ;
+  var min = event.target.min.value ;
+  var max = event.target.max.value ;
+  var avg = event.target.avg.value ;
+  var newShop = new Shop(name,min,max,avg);
+
+  var rowCount = tableEl.rows.length;
+  tableEl.deleteRow(rowCount-1);
+  newShop.tableData();
+  newShop.footer();
+
+
+});
+
+// console.log(shopNames);
 
 
 
