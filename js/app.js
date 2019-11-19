@@ -137,9 +137,9 @@ Shop.prototype.footer();
 theForm.addEventListener('submit', function(event) {
   event.preventDefault();
   var name = event.target.name.value ;
-  var min = event.target.min.value ;
-  var max = event.target.max.value ;
-  var avg = event.target.avg.value ;
+  var min = parseInt(event.target.min.value) ;
+  var max = parseInt(event.target.max.value) ;
+  var avg = parseFloat(event.target.avg.value) ;
   var newShop = new Shop(name,min,max,avg);
 
   var rowCount = tableEl.rows.length;
