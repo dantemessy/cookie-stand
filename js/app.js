@@ -38,17 +38,6 @@ Shop.prototype.getNumber = function () {
   }
 };
 
-// Shop.prototype.render = function () {
-
-//   var container = document.getElementById('stores');
-//   var articleEl = document.createElement('article');
-//   container.appendChild(articleEl);
-//   var tableEl = document.createElement('table');
-//   articleEl.appendChild(tableEl);
-//   var trEl = document.createElement('tr');
-//   tableEl.appendChild(trEl);
-
-// };
 Shop.prototype.header = function () {
 
   var trEl = document.createElement('tr');
