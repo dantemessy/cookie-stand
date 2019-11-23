@@ -1,0 +1,307 @@
+html { 
+    background: url(/img/679728.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  header{
+      height: 145px;
+      background-color:rgba(255,192,203, 0.5);
+
+  }
+  header h2{
+    padding-top: 45px ;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+  }
+  header h3{
+    padding-top: 5px ;
+    font-size: 15px;
+    font-family: 'Lobster', cursive;
+  }
+
+
+  #logo{
+      float: left;
+      object-fit: 50%;
+      width: 125px ;
+      height: 125px;
+      border-radius: 50%;
+      opacity: 75%;
+      margin: 10px;
+  }
+
+  header nav ul{
+      text-align: center;
+  }
+  header nav ul li{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+      display: inline-block;
+  }
+
+  header nav ul li:hover{
+    color: white;
+    transform: scale(1.1) ;
+    transition: 150ms;
+
+      
+  }
+
+  #about{
+      margin-left: 160px;
+      margin-right: 160px;
+      background-color: rgba(255,192,203, .8);
+      padding: 15px 25px 15px 25px;
+      border-radius: 25px 0px;
+
+  }
+
+
+  #table{
+      margin-left: 100px;
+      background-color: rgba(255,192,203, .8);
+      padding: 15px 25px 15px 25px;
+      border-radius: 25px 0px;
+  }
+
+  #sm{
+    background-color: rgba(255,192,203, .5);
+    padding: 15px 25px 15px 25px;
+    border-radius: 25px 0px;
+
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    /* margin-left: 260px; */
+
+  }
+
+  main{
+    background-color: rgba(0,0,0, .5);
+    height: fit-content;
+    margin: 100px 25px 25px 25px;
+    border-radius: 25px;
+
+  }
+
+  #anime{
+      float: left;
+      /* width: 200px;   
+      height:200px; */
+      margin: 25px;
+      border-radius: 100px;
+  }
+
+  #why{
+    padding-top: 45px ;
+    font-size: 45px;
+    font-family: 'Lobster', cursive;
+    color: rgba(255,192,203, 1);
+
+
+  }
+
+  #whyText{
+    padding-top: 45px ;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    color: rgba(255,192,203, 1);
+  }
+
+  #sec1{
+      padding-top: 50px;
+  }
+
+  .product{
+      height: 250px;
+      width: 250px;
+      border-radius: 100px;
+      margin: 25px;
+  }
+  .product:hover{
+    color: white;
+    transform: scale(1.1) ;
+    transition: 150ms;
+
+  }
+
+  #sec21{
+      /* padding-top: 50px; */
+      /* align-content: center; */
+      /* display: inline-block; */
+
+  }
+
+  #sec2{
+      padding-top: 150px;
+  }
+
+  #sec2 h2{
+      padding-top: 45px;
+    font-size: 45px;
+    font-family: 'Lobster', cursive;
+    color: rgba(255,192,203, 1);
+  }
+
+  #sec2 h3{
+    padding-top: 45px ;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    color: rgba(255,192,203, 1);
+
+
+  }
+
+
+  #anime2{
+      width: 220px;
+      height: 250px;
+    margin: 25px;
+    float: left;
+    border-radius: 100px;
+  }
+
+    #sec3{
+        padding-top: 100px;
+
+
+    }
+
+  #sec3 h2{
+    padding-top: 45px;
+    font-size: 45px;
+    font-family: 'Lobster', cursive;
+    color: rgba(255,192,203, 1);
+  }
+
+  #sec3 h3{
+    padding-top: 45px ;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    color: rgba(255,192,203, 1);
+
+  }
+
+  #anime3{
+    /* width: 220px;
+    height: 250px; */
+  margin: 25px;
+  float: left;
+  border-radius: 100px;
+  }
+
+  footer{
+    height: fit-content;
+    background-color:rgba(255,192,203, 0.5);
+
+  }
+
+  #copy{
+    width: 125px ;
+    height: 125px;
+    opacity: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+
+  }
+
+  footer h3{
+      text-align: center;
+      font-family: 'Lobster', cursive;
+      padding: 10px;
+      color: rgba(192, 8, 8, 0.75)
+
+    }
+
+    #sec4{
+        margin-top: 50px;
+        text-align: center;
+
+    }
+
+    #sec4 button{
+        margin: 25px;
+        padding: 35px;
+        border-radius: 100%;
+        font-size: 25px;
+        font-family: 'Lobster', cursive;
+        background-color: rgba(255,192,203, .75 );
+
+    }
+
+    button:hover{
+        color: white;
+        transform: scale(1.1) ;
+        transition: 150ms;
+    }
+
+    /* sales page  */
+
+    #shopsForm{
+        margin: 50px;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 35px;
+        color: rgba(255,192,203, 1);
+        font-weight: bold;
+
+
+    }
+
+    #add{
+        padding-top: 45px ;
+        font-size: 35px;
+        text-align: center;
+        font-family: 'Lobster', cursive;
+        color: rgba(255,192,203, 1);
+    }
+
+    fieldset input:hover{
+        color: white;
+        transform: scale(1.1) ;
+        transition: 150ms;
+
+
+    }
+
+        #submit{
+        margin-top: 50px;
+        padding: 25px;
+        border-radius: 100%;
+        font-size: 20px;
+        font-family: 'Lobster', cursive;
+        background-color: rgba(255,192,203, .75 );
+
+    }
+
+    .inputvalue{
+        padding: 20px;
+        border-radius: 100%;
+
+    }
+
+
+    /* the table  */
+
+    #stores{
+        text-align: center;
+        margin-top: 50px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+        color: rgba(255,192,203, 1);
+    }
+
+    #stores article{
+        display: inline-block;
+}
+
+#stores article table tr th{
+    padding: 10px;
+    font-weight: bold;
+}

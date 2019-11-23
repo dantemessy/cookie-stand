@@ -9,28 +9,50 @@
 </head>
 
 <body>
+
     <header>
-        <h1>Hello</h1>
+
+        <img id="logo" src="/img/logo.jpg" alt="logo">
+        <h2> SaKura Shop さくら店</h2>
+        <h3>For Best Salmone Cookies in the World </h3>
+
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li id="table"> Main </li>
+                </a>
+
+                <a href="sales.html">
+                    <li id="about"> Add Store </li>
+                </a>
+                <a href="https://facebook.com/DanTe.Messy">
+                    <li id="sm"> Socialmedia</li>
+                </a>
+
+            </ul>
+
+        </nav>
     </header>
 
     <main>
 
+        <h3 id="add">You Can Add Your Store Here</h3>
+
         <form id="shopsForm">
             <fieldset>
-                <legend> start the filed set </legend>
-                <label for="name"> Shop Name </label>
-                <input type="text" id="name" placeholder="heloo" required/>
+                <label for="name"> Nam </label>
+                <input class="inputvalue" type="text" id="name" placeholder="Enter Shop Name" required />
                 <br>
                 <label for="min"> min </label>
-                <input type="number" id="min" >
+                <input class="inputvalue" type="number" id="min" placeholder="Minimum" required>
                 <br>
                 <label for="max"> max </label>
-                <input type="number" id="max">
+                <input class="inputvalue" type="number" id="max" placeholder="Maximum" required>
                 <br>
                 <label for="avg"> avg </label>
-                <input type="number" step ="0.01" id="avg">
+                <input class="inputvalue" type="number" step="0.01" placeholder="Average " id="avg" required>
                 <br>
-                <input type="submit">
+                <input id="submit" type="submit">
 
 
             </fieldset>
@@ -41,6 +63,13 @@
         </div>
 
     </main>
+
+    <footer> <img id="copy"
+            src="https://i1.wp.com/www.uuchurchlc.org/wp-content/uploads/2009/12/copyright-symbol.png?fit=982%2C952"
+            alt="">
+        <h3>Copyright 2019</h3>
+
+    </footer>
 
 
 </body>
