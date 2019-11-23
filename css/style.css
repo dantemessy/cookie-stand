@@ -43,6 +43,7 @@ html {
   }
 
   header nav ul li:hover{
+    cursor: grab;
     color: white;
     transform: scale(1.1) ;
     transition: 150ms;
@@ -123,6 +124,7 @@ html {
       margin: 25px;
   }
   .product:hover{
+    cursor: grab;
     color: white;
     transform: scale(1.1) ;
     transition: 150ms;
@@ -236,6 +238,7 @@ html {
     }
 
     button:hover{
+        cursor: grab;
         color: white;
         transform: scale(1.1) ;
         transition: 150ms;
@@ -263,6 +266,7 @@ html {
     }
 
     fieldset input:hover{
+        cursor: grab;
         color: white;
         transform: scale(1.1) ;
         transition: 150ms;
@@ -292,6 +296,7 @@ html {
     #stores{
         text-align: center;
         margin-top: 50px;
+        padding-bottom: 50px;
         font-family: 'Courier New', Courier, monospace;
         font-size: 25px;
         color: rgba(255,192,203, 1);
@@ -305,3 +310,17 @@ html {
     padding: 10px;
     font-weight: bold;
 }
+
+#stores tr :last-child{
+    font-weight: bold;
+}
+
+#stores td:hover{
+    cursor: grab;
+    color: white;
+    transform: scale(1.5) ;
+    transition: 150ms;
+
+
+}
+
