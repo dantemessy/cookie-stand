@@ -1,9 +1,9 @@
 html { 
-    background: url(https://i.pinimg.com/originals/d9/53/fd/d953fd1e9133d034bd222c48be3508ff.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: url(https://i.gifer.com/2r5w.gif) center, url(https://i.pinimg.com/originals/d9/53/fd/d953fd1e9133d034bd222c48be3508ff.jpg) no-repeat center center fixed; 
+    -webkit-background-size:  none ,cover;
+    -moz-background-size: none ,cover;
+    -o-background-size: none , cover;
+    background-size: none ,cover;
   }
   
   header{
