@@ -324,3 +324,9 @@ html {
 
 }
 
+#audio{
+  float: right;
+  /* position: fixed; */
+  opacity: 50%;
+}
+
