@@ -1,7 +1,7 @@
 # cookie-stand
 
 # Live WebSite
-![Here](https://dantemessy.github.io/cookie-stand/) 
+[Here](https://dantemessy.github.io/cookie-stand/) 
 
 
 
